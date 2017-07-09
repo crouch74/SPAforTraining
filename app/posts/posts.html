@@ -1,0 +1,17 @@
+<table>
+  <caption>Posts</caption>
+  <thead>
+    <tr>
+      <th>User Id</th>
+      <th>Title</th>
+      <th>Body</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="post in vm.posts">
+      <td data-label="User Id">{{post.userId}}</td>
+      <td data-label="Title"><a ui-sref="comments({id:post.id})">{{post.title}}</a></td>
+      <td data-label="Body">{{post.body}}</td>
+    </tr>
+  </tbody>
+</table>

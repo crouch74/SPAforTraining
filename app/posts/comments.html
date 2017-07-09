@@ -1,0 +1,17 @@
+<table>
+  <caption>Comments</caption>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Body</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="comment in vm.comments">
+      <td data-label="Name">{{comment.name}}</td>
+      <td data-label="Email">{{comment.email}}</td>
+      <td data-label="Body">{{comment.body}}</td>
+    </tr>
+  </tbody>
+</table>
