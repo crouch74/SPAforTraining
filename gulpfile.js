@@ -9,7 +9,8 @@ var paths = {
 
     libs: [
         './node_modules/angular/angular.js',
-        './node_modules/@uirouter/angularjs/release/angular-ui-router.js'
+        './node_modules/@uirouter/angularjs/release/angular-ui-router.js',
+        './node_modules/angular-translate/dist/angular-translate.js'
     ],
     app: [
         './src/app/**/*.module.js',
