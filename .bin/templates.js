@@ -1,5 +1,5 @@
 angular.module('app').run(['$templateCache', function($templateCache) {
-  $templateCache.put('./1app/posts/comments.template.html',
+  $templateCache.put('./app/posts/comments.template.html',
     '<table>\n' +
     '  <caption>Comments</caption>\n' +
     '  <thead>\n' +

@@ -4,7 +4,7 @@
 ### Angular ###
 ## Angular ##
 # compiled output
-/src/.bin
+.bin
 
 # dependencies
 /node_modules
