@@ -18,7 +18,7 @@
                 .getPostComments($stateParams.id)
                 .then(function(comments) {
                     vm.comments = comments;
-                })
+                });
         }
     }
 })();

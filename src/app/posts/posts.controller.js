@@ -16,7 +16,7 @@
                 .getAll()
                 .then(function(posts) {
                     vm.posts = posts;
-                })
+                });
         }
         
     }

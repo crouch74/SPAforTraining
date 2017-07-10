@@ -13,14 +13,14 @@
             getAll: getAll,
             getPost: getPost,
             getPostComments: getPostComments
-        }
+        };
 
         function getAll() {
             return $http
                 .get(API_URL + '/posts')
                 .then(function(res){
                     return res.data;
-                })
+                });
         }
 
         function getPost(id) {
@@ -28,7 +28,7 @@
                 .get(API_URL + '/posts/' + id)
                 .then(function(res){
                     return res.data;
-                })
+                });
         }
 
         function getPostComments(id) {
@@ -36,7 +36,7 @@
                 .get(API_URL + `/posts/${id}/comments`)
                 .then(function(res){
                     return res.data;
-                })
+                });
         }
 
     }

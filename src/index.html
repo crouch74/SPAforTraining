@@ -2,23 +2,16 @@
     <head>
         <title>Social Media</title>
         <link rel="stylesheet" href="https://gitcdn.link/repo/Chalarangelo/mini.css/master/dist/mini-default.min.css">
-        <script src="./libs/angular.min.js"></script>
-        <script src="./libs/angular-ui-router.min.js"></script>
+        <script src="./libs.js"></script>
+        <script src="./bundle.js"></script>
+        <script src="./templates.js"></script>
     </head>
     <body ng-app="app">
+        <h1>Hello World </h1>
         <a ui-sref="posts">Posts</a>
         <br>
         <ui-view></ui-view>
         <br>
         Footer
-
-
-        <script src="./app/shared/shared.module.js"></script>
-        <script src="./app/posts/posts.module.js"></script>
-        <script src="./app/posts/posts.controller.js"></script>
-        <script src="./app/posts/comments.controller.js"></script>
-        <script src="./app/posts/posts.service.js"></script>
-        <script src="./app/posts/posts.route.js"></script>
-        <script src="./app/app.js"></script>
     </body>
 </html>

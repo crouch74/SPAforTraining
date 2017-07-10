@@ -12,16 +12,16 @@
         $stateProvider
             .state('posts', {
                 url: '/posts',
-                templateUrl: './app/posts/posts.html',
+                templateUrl: './app/posts/posts.template.html',
                 controller: 'PostsController',
                 controllerAs: 'vm'
             })
             .state('comments', {
                 url: '/posts/{id:int}/comments',
-                templateUrl: './app/posts/comments.html',
+                templateUrl: './app/posts/comments.template.html',
                 controller: 'CommentsController',
                 controllerAs: 'vm'
-            })
+            });
     }
 
 })();

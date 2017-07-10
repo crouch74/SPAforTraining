@@ -10,5 +10,14 @@
   "dependencies": {
     "@uirouter/angularjs": "^1.0.5",
     "angular": "^1.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-ng-html2js": "^0.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^3.0.0",
+    "rimraf": "^2.6.1"
   }
 }
